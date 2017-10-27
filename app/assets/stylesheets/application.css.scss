@@ -1,0 +1,175 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require bootstrap.min
+ *= require bootstrap-grid.min
+ *= require bootstrap-reboot.min
+ *= require font-awesome.min
+ *= require sb-admin.min
+
+
+ */
+
+.banner{
+  color: #565a5c;
+  background-color: #F8F8F8;
+  background-color: #fff;
+  color: yellow;
+  font-family: verdana, arial, sans-serif;
+  text-align: center;
+  font-size: 13px;
+  padding: 50px 0 0px;
+  line-height: 300px;
+  background-image: image-url('car3.jpg');
+  background-repeat: no-repeat;
+  background-size:100%;
+
+
+  }
+
+
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+
+.col.s12 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.col {
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.intro-big-header {
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.25;
+}
+
+
+.btn-primary.btn{
+  border: 1px solid #1a1a1a;
+  border-radius:  2px;
+  font-weight: bold;
+  background-color: #474747;
+  color: #FFFFFF;
+  padding: 10px 25px 10px 25px;
+}
+
+
+.btn-primary.btn:hover, .btn-primary.btn:focus{
+  border-color: #1c1c17;
+  border-bottom-color: #737477;
+  background-color: #979797;
+  outline: none;
+
+
+}
+
+
+.btn-primary.btn:active {
+  border-color: #9fa3a8;
+  background-color: #9fa3a8;
+  outline:none;
+}
+
+
+.btn-default.btn {
+  width: 100%;
+  border-radius: 2px;
+  padding: 10px 0;
+  margin-top: 10px;
+}
+
+.panel-default .panel-heading
+{
+  color: #565a5c;
+  background-color: #edefed;
+  font-size: 18px;
+  font-weight: 400
+}
+
+
+.row-space-1 {
+margin-top: 6px;
+margin-bottom: 6px;
+}
+
+
+.row-space-2 {
+
+margin-top: 12px;
+margin-bottom: 12px;  
+}
+
+.row-space-3 {
+  
+margin-top: 24px;
+margin-bottom: 24px;
+}
+
+.description {
+  color: #575757;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.avatar-small {
+  width: 28px;
+}
+
+.avatar-meduim{
+  width: 48px;
+}
+
+.avatar-large {
+  width: 68px;
+}
+
+.avatar-config {
+  height: 100px;
+}
+.avatar-full {
+ width: 100%;
+}
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-control {
+  border-radius: 2px;
+ 
+}
+
+.jumbotron {
+  
+  background-image: url('car4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+
+}
