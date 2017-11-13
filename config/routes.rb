@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'dashboard/index'
+
+  get 'dashboard/repair'
+
   get 'dashboard/home'
 
   devise_for :users
